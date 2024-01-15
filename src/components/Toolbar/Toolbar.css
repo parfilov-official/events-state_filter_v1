@@ -1,0 +1,28 @@
+.button-list {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.button-list__btn {
+    border: 2px solid #565656;
+    outline: unset;
+    border-radius: 2px;
+}
+
+.button-list__btn:focus {
+    outline: unset;
+}
+
+.button-list__btn:hover {
+    border: 2px solid #9a9999;
+}
+
+.button-list__btn_active {
+    background-color: #565656;
+    color: #fff;
+}
+
+.button-list__btn_active:hover {
+    border: 2px solid #565656;
+}
